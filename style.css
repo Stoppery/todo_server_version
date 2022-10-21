@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	background-color: lightgray;
+}
+
+h1 {
+	margin: 0;
+}
+
+.header {
+	margin-bottom: 6px;
+	background-color: white;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	box-shadow: 0 5px 5px grey;
+}
+
+.main {
+	padding-top: 30px;
+	background-color: lightgray;
+}
+
+.link-back {
+	display: inline-block;
+	left: 10px;
+	text-decoration: none;
+}
+
+.main-page {
+	display: inline-block;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	width: 80%;
+}
+
+.card-title {
+	padding-bottom: 8px;
+	border-bottom: 1px solid black;
+}
+
+.short-text {
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dots-start, .dots-finish {
+	margin: 0 10px;
+}
+
+.card-link:hover {
+	cursor: pointer;
+}
+
+.white-bg {
+	padding: 15px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.red-line {
+	text-indent: 30px;
+}
+
+.comments {
+	margin-top: 80px;
+	padding: 15px;
+}
+
